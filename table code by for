@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int j,i;
+    cout<<"\n enter purching amount =";
+    cin>>i;
+     for(j=1;j<=10;j++)
+    {
+ // "<<sum;
+    
+   cout << "\n table= "<<i*j;
+   //j++;
+    }
+    return 0;
+    }
