@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int x;
+    x=0;
+    while(x<=10){
+    cout<<"\n enter purching amount x,y="<<x;
+//     for(n=1;n<=y;n++)
+    if(x==4)
+    break;
+    x++;
+        //pro=pro*x;
+ // "<<sum;p
+   }
+   //cout<<"\n table= "<<pro;
+   //x=y;//++;
+     //y=z;
+       // z=x+y;
+        //count=count+1;
+    //cout<<"count="<<count;
+    
+    return 0;
+    }
