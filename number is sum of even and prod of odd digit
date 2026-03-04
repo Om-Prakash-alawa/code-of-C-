@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int n,sum=0,pro=1,digit;
+    cout<<"\n enter purching amount =";
+    cin>>n;
+    while(n>0)
+    {
+     digit=n%10;   
+    if(digit%2==0)
+    sum=sum+digit;
+    else 
+    pro = pro*digit ;
+    n=n/10;}
+     cout<<"\n discount = "<<sum;
+    cout << "\n net payable = "<<pro;
+    return 0;
+    }
