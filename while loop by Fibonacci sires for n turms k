@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int x,y,n,z,count=1;
+    cout<<"\n enter purching amount =";
+    cin>>n;
+    x=0;
+    y=1;
+    z=0;
+     while(count<=n)
+    {
+ // "<<sum;
+   cout<<"\n table= "<<z;
+   x=y;//++;
+     y=z;
+        z=x+y;
+    
+        count=count+1;
+    
+    //cout<<"count="<<count;
+    }
+    return 0;
+    }
