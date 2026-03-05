@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int n;//um=0,pro=1,digit;
+    cout<<"\n enter purching amount =";
+    cin>>n;
+    if(n%2==0)
+     goto even;
+     else
+     goto odd;
+     even:
+     cout<<"\n even number ";
+     return 0;
+      odd:
+      cout<<"\n odd number ";
+      return 0;
+}
