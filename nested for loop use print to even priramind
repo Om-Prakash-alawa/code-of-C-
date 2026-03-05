@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,k;
+    cout<<"Enter no of rows";
+    cin>>i;
+    for(j=1;j<=i;j++){
+        for(k=1;k<=j;k++)
+        cout<<j+j;
+        cout<<"\n";}
+        
+        
+        
+return 0;
+}
+
+ output
+
+Enter no of rows8
+2
+44
+666
+8888
+1010101010
+121212121212
+14141414141414
+1616161616161616
+
+
+=== Code Execution Successful ===
