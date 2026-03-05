@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int i,j;//um=0,pro=1,digit;
+    //cout<<"\n enter purching amount =";
+    //cin>>n;
+    //
+    for(i=1;i<=3;i++)
+     for(j=1;j<=3;j++)
+      cout<<"\n"<<j;
+    
+    //if(n%2==0)
+     //goto even;
+
+      return 0;
+}
