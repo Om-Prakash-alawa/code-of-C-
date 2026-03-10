@@ -1,0 +1,27 @@
+#include<stdio.h>
+using namespace std;
+void add(void);
+int main (){
+    add();
+    return 0;
+    
+}
+void add(void) //definition
+{
+    int a,b,sum;
+    printf("\n enter two numbers =");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("\n addition = %d",sum);
+    
+}
+
+output 
+
+
+ enter two numbers =6
+6
+
+ addition = 12
+
+=== Code Execution Successful ===
